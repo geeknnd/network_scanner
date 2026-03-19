@@ -13,7 +13,14 @@ class ARPScanner:
         packet = ether/arp
         result = srp(packet, timeout=3, verbose=1)[0]
         for sent, received in result:
-            devices.append((received.psrc, received.hwsrc))
+            devices.append({
+                "ip": received.psrc,
+                "mac": received.hwsrc,
+                "ports": [],
+                "services": [],
+                "type": None
+            })
+            #devices.append((received.psrc, received.hwsrc)) #ip + mac ////old version
         return devices
 
 
