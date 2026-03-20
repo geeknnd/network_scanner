@@ -1,0 +1,123 @@
+[
+  {"port": 21, "service": "FTP", "vulnerabilities": [
+    {"name": "Anonymous login", "severity": "high", "cve": "CVE-1999-0497"},
+    {"name": "Cleartext credentials", "severity": "high", "cve": "CVE-1999-0502"}
+  ]},
+
+  {"port": 22, "service": "SSH", "vulnerabilities": [
+    {"name": "Weak credentials", "severity": "medium", "cve": "CVE-2018-15473"}
+  ]},
+
+  {"port": 23, "service": "Telnet", "vulnerabilities": [
+    {"name": "Cleartext protocol", "severity": "high", "cve": "CVE-1999-0619"}
+  ]},
+
+  {"port": 25, "service": "SMTP", "vulnerabilities": [
+    {"name": "Open relay", "severity": "high", "cve": "CVE-1999-0512"}
+  ]},
+
+  {"port": 53, "service": "DNS", "vulnerabilities": [
+    {"name": "Cache poisoning", "severity": "high", "cve": "CVE-2008-1447"}
+  ]},
+
+  {"port": 67, "service": "DHCP", "vulnerabilities": [
+    {"name": "Rogue DHCP", "severity": "medium", "cve": "CVE-2011-0997"}
+  ]},
+
+  {"port": 68, "service": "DHCP", "vulnerabilities": [
+    {"name": "Rogue DHCP", "severity": "medium", "cve": "CVE-2011-0997"}
+  ]},
+
+  {"port": 69, "service": "TFTP", "vulnerabilities": [
+    {"name": "No authentication", "severity": "high", "cve": "CVE-1999-0498"}
+  ]},
+
+  {"port": 80, "service": "HTTP", "vulnerabilities": [
+    {"name": "Path traversal", "severity": "high", "cve": "CVE-2021-41773"},
+    {"name": "XSS", "severity": "medium", "cve": "CVE-2019-11043"}
+  ]},
+
+  {"port": 110, "service": "POP3", "vulnerabilities": [
+    {"name": "Cleartext credentials", "severity": "high", "cve": "CVE-1999-0502"}
+  ]},
+
+  {"port": 119, "service": "NNTP", "vulnerabilities": [
+    {"name": "Information disclosure", "severity": "low", "cve": "CVE-2000-0402"}
+  ]},
+
+  {"port": 123, "service": "NTP", "vulnerabilities": [
+    {"name": "Amplification attack", "severity": "high", "cve": "CVE-2013-5211"}
+  ]},
+
+  {"port": 137, "service": "NetBIOS", "vulnerabilities": [
+    {"name": "Name service poisoning", "severity": "medium", "cve": "CVE-2000-0661"}
+  ]},
+
+  {"port": 138, "service": "NetBIOS", "vulnerabilities": [
+    {"name": "Information leakage", "severity": "medium", "cve": "CVE-1999-0621"}
+  ]},
+
+  {"port": 139, "service": "SMB", "vulnerabilities": [
+    {"name": "Null sessions", "severity": "high", "cve": "CVE-1999-0519"}
+  ]},
+
+  {"port": 143, "service": "IMAP", "vulnerabilities": [
+    {"name": "Cleartext credentials", "severity": "high", "cve": "CVE-1999-0502"}
+  ]},
+
+  {"port": 161, "service": "SNMP", "vulnerabilities": [
+    {"name": "Public community string", "severity": "high", "cve": "CVE-1999-0517"}
+  ]},
+
+  {"port": 179, "service": "BGP", "vulnerabilities": [
+    {"name": "Route hijacking", "severity": "high", "cve": "CVE-2008-1447"}
+  ]},
+
+  {"port": 389, "service": "LDAP", "vulnerabilities": [
+    {"name": "Anonymous bind", "severity": "medium", "cve": "CVE-2017-8563"}
+  ]},
+
+  {"port": 443, "service": "HTTPS", "vulnerabilities": [
+    {"name": "Heartbleed", "severity": "high", "cve": "CVE-2014-0160"}
+  ]},
+
+  {"port": 445, "service": "SMB", "vulnerabilities": [
+    {"name": "EternalBlue", "severity": "critical", "cve": "CVE-2017-0144"}
+  ]},
+
+  {"port": 465, "service": "SMTPS", "vulnerabilities": [
+    {"name": "Weak TLS", "severity": "medium", "cve": "CVE-2016-0800"}
+  ]},
+
+  {"port": 500, "service": "ISAKMP", "vulnerabilities": [
+    {"name": "IKE brute force", "severity": "medium", "cve": "CVE-2002-1623"}
+  ]},
+
+  {"port": 514, "service": "Syslog", "vulnerabilities": [
+    {"name": "Log injection", "severity": "medium", "cve": "CVE-2014-3634"}
+  ]},
+
+  {"port": 515, "service": "LPD", "vulnerabilities": [
+    {"name": "Printer exploitation", "severity": "medium", "cve": "CVE-2001-0717"}
+  ]},
+
+  {"port": 520, "service": "RIP", "vulnerabilities": [
+    {"name": "Route poisoning", "severity": "medium", "cve": "CVE-1999-0511"}
+  ]},
+
+  {"port": 587, "service": "SMTP", "vulnerabilities": [
+    {"name": "Auth brute force", "severity": "medium", "cve": "CVE-2011-1764"}
+  ]},
+
+  {"port": 631, "service": "IPP", "vulnerabilities": [
+    {"name": "Printer exploits", "severity": "medium", "cve": "CVE-2020-10001"}
+  ]},
+
+  {"port": 1433, "service": "MSSQL", "vulnerabilities": [
+    {"name": "SQL brute force", "severity": "high", "cve": "CVE-2000-1209"}
+  ]},
+
+  {"port": 3306, "service": "MySQL", "vulnerabilities": [
+    {"name": "Weak credentials", "severity": "high", "cve": "CVE-2012-2122"}
+  ]}
+]
