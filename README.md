@@ -89,11 +89,17 @@ Navigate to the project folder and create a virtual environment:
 - Device detection реализован только через banner grabbing и MAC OUI.
 - Расширение возможностей возможно через добавление новых сканеров и правил анализа.
 - CLI-версия проекта работает на Linux, Windows поддерживается частично.
+- Для корректной работы проекта требуется Nmap.  
+- На Linux: `sudo apt install nmap`  
+- На Windows: скачать с https://nmap.org/download.html и добавить в PATH
 
 **EN:**
 - Device detection is implemented using banner grabbing and MAC OUI only.
 - Functionality can be extended by adding new scanners and analysis rules.
 - The CLI version works on Linux, Windows support is partial.
+- For proper project functionality, Nmap is required.
+- On Linux: `sudo apt install nmap`
+- On Windows: download from https://nmap.org/download.html and add to PATH
 
 ---
 
