@@ -52,9 +52,9 @@ The project is written in Python using Scapy and Nmap. The main goal is to showc
 
 **RU:**
 - Клонируйте репозиторий:  
-```bash```
+```bash```  
 - git clone <URL вашего репозитория>
-Перейдите в папку проекта и создайте виртуальное окружение:
+Перейдите в папку проекта и создайте виртуальное окружение:  
 - python3 -m venv venv
 - source venv/bin/activate  # Linux
 - venv\Scripts\activate     # Windows
@@ -64,13 +64,10 @@ The project is written in Python using Scapy and Nmap. The main goal is to showc
 - Убедитесь, что Nmap установлен и доступен из командной строки.
 
 **EN:**
-Clone the repository:
-
-```bash```
-
+Clone the repository:  
+```bash```  
 - git clone <Your repository URL>
-Navigate to the project folder and create a virtual environment:
-
+Navigate to the project folder and create a virtual environment:  
 - python3 -m venv venv
 - source venv/bin/activate  # Linux
 - venv\Scripts\activate     # Windows
