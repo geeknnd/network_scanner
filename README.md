@@ -51,51 +51,51 @@ The project is written in Python using Scapy and Nmap. The main goal is to showc
 ## Установка / Installation
 
 **RU:**
-Клонируйте репозиторий:  
-```bash```
-git clone <URL вашего репозитория>
-Перейдите в папку проекта и создайте виртуальное окружение:
-python3 -m venv venv
-source venv/bin/activate  # Linux
-venv\Scripts\activate     # Windows
+-Клонируйте репозиторий:  
+-```bash```
+-git clone <URL вашего репозитория>
+-Перейдите в папку проекта и создайте виртуальное окружение:
+-python3 -m venv venv
+-source venv/bin/activate  # Linux
+-venv\Scripts\activate     # Windows
 
-Установите зависимости:
-pip install -r requirements.txt
-Убедитесь, что Nmap установлен и доступен из командной строки.
+-Установите зависимости:
+-pip install -r requirements.txt
+-Убедитесь, что Nmap установлен и доступен из командной строки.
 
 **EN:**
-Clone the repository:
-```bash```
-git clone <Your repository URL>
-Navigate to the project folder and create a virtual environment:
-python3 -m venv venv
-source venv/bin/activate  # Linux
-venv\Scripts\activate     # Windows
+-Clone the repository:
+-```bash```
+-git clone <Your repository URL>
+-Navigate to the project folder and create a virtual environment:
+-python3 -m venv venv
+-source venv/bin/activate  # Linux
+-venv\Scripts\activate     # Windows
 
-Install dependencies:
-pip install -r requirements.txt
-Make sure Nmap is installed and available in the command line.
+-Install dependencies:
+-pip install -r requirements.txt
+-Make sure Nmap is installed and available in the command line.
 
 ---
 
 ## Использование / Usage
-python main.py
+-python main.py
 
 ---
 
 ## Примечания / Notes
 
 **RU:**
-Device detection реализован только через banner grabbing и MAC OUI.
-Расширение возможностей возможно через добавление новых сканеров и правил анализа.
-CLI-версия проекта работает на Linux, Windows поддерживается частично.
+-Device detection реализован только через banner grabbing и MAC OUI.
+-Расширение возможностей возможно через добавление новых сканеров и правил анализа.
+-CLI-версия проекта работает на Linux, Windows поддерживается частично.
 
 **EN:**
-Device detection is implemented using banner grabbing and MAC OUI only.
-Functionality can be extended by adding new scanners and analysis rules.
-The CLI version works on Linux, Windows support is partial.
+-Device detection is implemented using banner grabbing and MAC OUI only.
+-Functionality can be extended by adding new scanners and analysis rules.
+-The CLI version works on Linux, Windows support is partial.
 
 ---
 
 ## Лицензия / License
-MIT License
+-MIT License
