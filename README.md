@@ -65,9 +65,12 @@ The project is written in Python using Scapy and Nmap. The main goal is to showc
 
 **EN:**
 Clone the repository:
+
 ```bash```
+
 - git clone <Your repository URL>
 Navigate to the project folder and create a virtual environment:
+
 - python3 -m venv venv
 - source venv/bin/activate  # Linux
 - venv\Scripts\activate     # Windows
